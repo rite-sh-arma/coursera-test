@@ -1,83 +1,10 @@
-* {
-    box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  h1 {
-    font-size: 27px;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    margin-bottom: 30px;
-  }
-  
-  p {
-    padding: 15px 5px 0px 5px;
-    font-family: Georgia sans-serif;
-    font-size: 16px;
-    position: relative;
-  }
-  
-  .section {
-    background-color: rgb(150, 150, 150);
-    border: 2px solid black;
-    margin-top: 20px;
-    margin-right: 20px;
-    padding: 3px;
-    text-align: justify;
-    position: relative;
-  }
-  
-  span {
-    font-size: 20px;
-    width: 150px;
-    border: 1px solid black;
-    font-weight: bold;
-    text-align: center;
-    float: right;
-    top: 0;
-    right: 0;
-    margin: 0;
-    position: absolute;
-  }
-  #hd1 {
-    background-color: rgb(250, 150, 150);
-    color: rgb(0, 0, 0);
-  }
-  #hd2 {
-    background-color: rgb(250, 0, 0);
-    color: rgb(250, 250, 250);
-  }
-  #hd3 {
-    background-color: rgb(200, 200, 100);
-    color: rgb(0, 0, 0);
-  }
-  
-  .row {
-    width: 100%;
-  }
-  
-  @media (min-width: 992px) {
-    .col-md-4 {
-      width: 33.33%;
-      float: left;
-    }
-  }
-  
-  @media (min-width: 768px) and (max-width: 991px) {
-    .col-sm-6 {
-      width: 50%;
-      float: left;
-    }
-    .col-sm-12 {
-      width: 100%;
-      float: left;
-    }
-  }
-  
-  @media (max-width: 767px) {
-    .col-xs-12 {
-      float: left;
-      width: 100%;
-    }
-  }
-  
+body{
+  background-color: #61122f;
+  color: #fff;
+}
+#logo-img{
+  background: url()
+}
+.navbar-brand p{
+  text-decoration: none;
+}
